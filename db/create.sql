@@ -78,3 +78,18 @@ insert into products (name, description, code, price) values ('West Ham United',
 insert into products (name, description, code, price) values ('Aston Villa', 'Het Aston Villa thuisshirt van 2021/2022', '058763214-9', 69.9);
 insert into products (name, description, code, price) values ('Everton', 'Het Everton thuisshirt van 2021/2022', '132645821-3', 69.9);
 insert into products (name, description, code, price) values ('Wolverhampton Wanderers', 'Het Wolverhampton thuisshirt van 2021/2022', '263749106-5', 69.9);
+
+
+insert into Kleuren_van_clubs (name, kleuren) values ('Arsenal', 'Rood en Wit');
+insert into Kleuren_van_clubs (name, kleuren) values ('Chelsea', 'Blauw');
+insert into Kleuren_van_clubs (name, kleuren) values ('Liverpool', 'Rood');
+insert into Kleuren_van_clubs (name, kleuren) values ('Man United', 'Rood');
+insert into Kleuren_van_clubs (name, kleuren) values ('Man city', 'Blauw');
+insert into Kleuren_van_clubs (name, kleuren) values ('Tottenham Hotspur', 'Wit');
+insert into Kleuren_van_clubs (name, kleuren) values ('Leeds United', 'Wit en Geel');
+insert into Kleuren_van_clubs (name, kleuren) values ('Leicester City', 'Blauw');
+insert into Kleuren_van_clubs (name, kleuren) values ('West Ham United', 'Bordeaux-rood');
+insert into Kleuren_van_clubs (name, kleuren) values ('Aston Villa', 'Bordeaux-rood');
+insert into Kleuren_van_clubs (name, kleuren) values ('Everton', 'Blauw');
+insert into Kleuren_van_clubs (name, kleuren) values ('Wolverhampton Wanderers', 'Geel');
+
