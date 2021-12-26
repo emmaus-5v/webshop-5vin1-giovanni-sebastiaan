@@ -11,6 +11,13 @@ CREATE TABLE products (
   price NUMERIC(10, 2)
 );
 
+DROP TABLE IF EXISTS Kleuren;
+CREATE TABLE Kleuren (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  kleuren VARCHAR(),
+
+
+)
 
 --
 -- populate with data
