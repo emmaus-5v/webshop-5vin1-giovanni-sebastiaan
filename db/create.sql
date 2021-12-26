@@ -14,46 +14,46 @@ CREATE TABLE products (
 DROP TABLE IF EXISTS Kleuren_van_clubs;
 CREATE TABLE Kleuren_van_clubs (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name VARCHAR (255)
+  name VARCHAR (255),
   kleuren VARCHAR (15)
 );
 
 DROP TABLE IF EXISTS Geschiedenis;
 CREATE TABLE Geschiedenis (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name VARCHAR (255)
-  aantal_winst VARCHAR(40)
-  oorsprong VARCHAR (10)
+  name VARCHAR (255),
+  aantal_winst VARCHAR(40),
+  oorsprong VARCHAR (10),
   hoelang_bestaan VARCHAR (60)
 );
 
 DROP TABLE IF EXISTS Stadium;
 CREATE TABLE Stadium (
-  name VARCHAR (255)
+  name VARCHAR (255),
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  aantal_kijkers VARCHAR (300)
-  grootte VARCHAR (100)
+  aantal_kijkers VARCHAR (300),
+  grootte VARCHAR (100),
   kosten VARCHAR (200)
 );
 
 DROP TABLE IF EXISTS spelers;
 CREATE TABLE spelers (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name VARCHAR (255)
-  coach VARCHAR (30)
-  keeper VARCHAR (30)
-  verdedigers VARCHAR (200)
-  middenveld VARCHAR (200)
-  aanval VARCHAR (200)
+  name VARCHAR (255),
+  coach VARCHAR (30),
+  keeper VARCHAR (30),
+  verdedigers VARCHAR (200),
+  middenveld VARCHAR (200),
+  aanval VARCHAR (200),
   reserve VARCHAR (400)
 );
 
 DROP TABLE IF EXISTS Plaats;
 CREATE TABLE Plaats (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name VARCHAR (255)
-  land VARCHAR (60)
-  regio VARCHAR (60)
+  name VARCHAR (255),
+  land VARCHAR (60),
+  regio VARCHAR (60),
   stad VARCHAR (60)
 );
 
