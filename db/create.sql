@@ -32,9 +32,7 @@ CREATE TABLE Stadium (
   name VARCHAR (255),
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   aantal_kijkers VARCHAR (300),
-  grootte VARCHAR (100),
-  kosten VARCHAR (200)
-);
+)
 
 DROP TABLE IF EXISTS spelers;
 CREATE TABLE spelers (
@@ -53,8 +51,7 @@ CREATE TABLE Plaats (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name VARCHAR (255),
   land VARCHAR (60),
-  regio VARCHAR (60),
-  stad VARCHAR (60)
+  stad VARCHAR (60),
 );
 
 --
@@ -93,3 +90,42 @@ insert into Kleuren_van_clubs (name, kleuren) values ('Aston Villa', 'Bordeaux-r
 insert into Kleuren_van_clubs (name, kleuren) values ('Everton', 'Blauw');
 insert into Kleuren_van_clubs (name, kleuren) values ('Wolverhampton Wanderers', 'Geel');
 
+
+insert into Geschiedenis (name, aantal_winst, oorsprong, hoelang_bestaan) values ('Arsenal', '13', '1886', '135 jaar');
+insert into Geschiedenis (name, aantal_winst, oorsprong, hoelang_bestaan) values ('Chelsea', '6', '1905', '116 jaar');
+insert into Geschiedenis (name, aantal_winst, oorsprong, hoelang_bestaan) values ('Liverpool', '19', '1892', '129 jaar');
+insert into Geschiedenis (name, aantal_winst, oorsprong, hoelang_bestaan) values ('Man United', '20', '1878', '143 jaar');
+insert into Geschiedenis (name, aantal_winst, oorsprong, hoelang_bestaan) values ('Man City', '7', '1880', '141 jaar');
+insert into Geschiedenis (name, aantal_winst, oorsprong, hoelang_bestaan) values ('Tottenham Hotspur', '2', '1882', '139 jaar');
+insert into Geschiedenis (name, aantal_winst, oorsprong, hoelang_bestaan) values ('Leeds United', '3', '1919', '102 jaar');
+insert into Geschiedenis (name, aantal_winst, oorsprong, hoelang_bestaan) values ('Leicester City', '1', '1884', '133 jaar');
+insert into Geschiedenis (name, aantal_winst, oorsprong, hoelang_bestaan) values ('West Ham United', '0', '1895', '126 jaar');
+insert into Geschiedenis (name, aantal_winst, oorsprong, hoelang_bestaan) values ('Aston Villa', '7', '1874', '147');
+insert into Geschiedenis (name, aantal_winst, oorsprong, hoelang_bestaan) values ('Everton', '9', '1878', '143 jaar');
+insert into Geschiedenis (name, aantal_winst, oorsprong, hoelang_bestaan) values ('Wolverhampton Wanderers', '3', '1877', '144 jaar');
+
+insert into Stadium (name, aantal_kijkers) values ('Arsenal', '60000');
+insert into Stadium (name, aantal_kijkers) values ('Chelsea', '41000');
+insert into Stadium (name, aantal_kijkers) values ('Liverpool', '50000');
+insert into Stadium (name, aantal_kijkers) values ('Man United', '76000');
+insert into Stadium (name, aantal_kijkers) values ('Man City', '55000');
+insert into Stadium (name, aantal_kijkers) values ('Tottenham Hotspur', '45000');
+insert into Stadium (name, aantal_kijkers) values ('Leeds United', '35000');
+insert into Stadium (name, aantal_kijkers) values ('Leicester City', '37000');
+insert into Stadium (name, aantal_kijkers) values ('West Ham United','40000');
+insert into Stadium (name, aantal_kijkers) values ('Aston Villa', '53000');
+insert into Stadium (name, aantal_kijkers) values ('Everton', '34000' );
+insert into Stadium (name, aantal_kijkers) values ('Wolverhampton Wanderers', '27000');
+
+insert into Plaats (name, land, stad) values ('Arsenal', 'UK', 'londen');
+insert into Plaats (name, land, stad) values ('Chelsea', 'UK', 'londen');
+insert into Plaats (name, land, stad) values ('Liverpool', 'UK', 'Liverpool');
+insert into Plaats (name, land, stad) values ('Man United', 'UK', 'Manchester');
+insert into Plaats (name, land, stad) values ('Man City', 'UK', 'Manchester');
+insert into Plaats (name, land, stad) values ('Tottenham', 'UK', 'londen');
+insert into Plaats (name, land, stad) values ('Leeds', 'UK', 'Leeds');
+insert into Plaats (name, land, stad) values ('Leicester', 'UK', 'Leicester');
+insert into Plaats (name, land, stad) values ('West ham', 'UK', 'londen');
+insert into Plaats (name, land, stad) values ('Aston villa', 'UK', 'Birmingham');
+insert into Plaats (name, land, stad) values ('Everton', 'UK', 'Liverpool');
+insert into Plaats (name, land, stad) values ( 'Wolverhampton', 'UK', 'Wolverhampton');
